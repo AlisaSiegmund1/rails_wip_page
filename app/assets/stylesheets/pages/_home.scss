@@ -6,21 +6,9 @@
   margin-top: 50px;
 }
 
-.content {
-  margin: 40px 20px;
-}
-
-
-.claims {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-
 .claims p {
   margin-bottom: 0.5rem;
 }
-
 
 .brand {
   font-style: italic;
@@ -30,14 +18,20 @@ a {
   color: black;
   text-decoration: underline;
 }
+
 a:hover {
   color: black;
   text-decoration: none;
 }
 
-img {
-  margin-right: 50px;
+p {
+  font-size: 18px;
 }
+
+img {
+    margin-right: 50px;
+    margin-top: 50px;
+  }
 
 /* Extra extra small devices (phones, 360px and down) */
 @media only screen and (max-width: 350px) {
@@ -46,26 +40,37 @@ img {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (min-width: 350px) {
   .content {
-    margin: 20px 80px;
-    font-size: 35px;
+    margin: 20px 20px;
   }
   .claims {
     text-align: center;
-    margin-bottom: 50px;
+    margin: 10px 35px 40px 35px;
   }
+
+  img {
+    height: 100px;
+  }
+  p {
+  font-size: 16px;
+}
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .content {
-    margin: 30px 80px;
-    font-size: 35px;
+    margin: 20px 20px;
   }
-    .claims {
-  text-align: center;
-  margin-bottom: 50px;
+  .claims {
+    text-align: center;
+    margin-bottom: 10px 15px 40px 15px;
+      }
+  img {
+    height: 100px;
+  }
+   p {
+  font-size: 16px;
 }
-
 
 }
 
@@ -73,13 +78,15 @@ img {
 @media only screen and (min-width: 768px) {
   .content {
     margin: 30px 20px;
-    font-size: 18px;
   }
 
   .claims {
   text-align: center;
   margin-bottom: 50px;
-}
+  }
+  img {
+    height: 80px;
+  }
 
 }
 

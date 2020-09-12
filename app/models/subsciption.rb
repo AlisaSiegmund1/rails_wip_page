@@ -1,0 +1,2 @@
+class Subsciption < ApplicationRecord
+end
